@@ -115,7 +115,6 @@ main {
   margin: 130px 0;
 }
 
-
 .section-tyle {
   color: #181818;
   text-align: center;
@@ -192,12 +191,10 @@ main {
 
 }
 
-.resume-item {
+.resume-item {}
 
-}
-
-.resume-container{
-  margin-right: 35px;
+.resume-container {
+  margin-right: 35pxfotter-columnfotter-column;
 }
 
 .resume-item-title {
@@ -219,15 +216,54 @@ main {
   line-height: 28px;
 }
 
-hr{
-  background: #D1D1D1;
+.download-cv {
+  text-align: center;
+  margin: 113px auto;
 }
 
-/* --------for resume top space--------- */
-
-#for-space{
-  margin-top: 130px ;
+#for-space {
+  margin-top: 130px;
+  margin-bottom: 50px;
 }
 
+hr {
+  margin-right: 24px;
+}
 
-/* -------------------------------- */
+/* ------footer------ */
+
+footer {
+  background-color: #FFF8F3;
+  display: flex;
+  padding: 130px 230px;
+  justify-content: center;
+}
+
+.footer-section-tyle {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+input,
+textarea {
+  display: block;
+  margin-bottom: 24px;
+  padding: 18px 35px;
+  border-radius: 5px;
+  background: #FFF;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  border: 0;
+}
+
+input {
+  width: 461px;
+  height: 64px;
+}
+
+textarea {
+  width: 461px;
+  height: 180px;
+}
